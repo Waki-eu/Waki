@@ -2,3 +2,5 @@
 ##########
 output/
 certificates/
+.project
+.settings
