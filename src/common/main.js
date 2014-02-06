@@ -1,15 +1,15 @@
-﻿function MyExtension() {
+﻿function Waki() {
     var self = this;
     kango.ui.browserButton.addEventListener(kango.ui.browserButton.event.COMMAND, function() {
         self._onCommand();
     });
 }
 
-MyExtension.prototype = {
+Waki.prototype = {
 
     _onCommand: function() {
-        kango.browser.tabs.create({url: 'http://kangoextensions.com/'});
+        kango.browser.tabs.create({url: 'http://www.waki.eu/'});
     }
 };
 
-var extension = new MyExtension();
+var extension = new Waki();

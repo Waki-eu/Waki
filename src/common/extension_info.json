@@ -1,16 +1,16 @@
 {
     "content_scripts": [], 
-    "description": "Extension description", 
-    "creator": "Kango", 
+    "description": "Waki is a Point-to-Point PGP Messenger, which allows secure communication via Facebook Chat.", 
+    "creator": "Waki.eu", 
     "background_scripts": [
         "main.js"
     ], 
-    "homepage_url": "http://kangoextensions.com/", 
-    "version": "0.9.0", 
+    "homepage_url": "http://waki.eu/", 
+    "version": "0.1.0", 
     "browser_button": {
-        "caption": "Kango", 
+        "caption": "Waki", 
         "icon": "icons/button.png", 
-        "tooltipText": "Kango"
+        "tooltipText": "Waki PGP Messenger"
     }, 
-    "name": "waki"
+    "name": "Waki"
 }
